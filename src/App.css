@@ -358,7 +358,7 @@
         scrollbar-width: thin;
         scrollbar-color: var(--black) var(--white);
         .cart_item{
-            background: var(--dark-1);
+            background: var(--light-2);
             display: flex;
             flex-direction: row;
             margin-bottom: 20px;
@@ -370,7 +370,7 @@
             div.item_des{
                 padding: 10px;
                 h3{
-                    color: var(--white);
+                    color: var(--black);
                     width: 600px;
                     margin-bottom: 12px;
                     display: -webkit-box;
@@ -394,8 +394,9 @@
                         &:hover{
                             color:var(--black) ;
                             background: white;
-                            padding: 1px 11px;
-                            border: 1px solid var(--black)
+                            /* padding: 1px 11px; */
+                            /* border: 1px solid var(--black); */
+                            box-shadow: 0 0 5px 1px var(--black);
                         }
                         &:disabled{
                             opacity: 0.8;
@@ -428,8 +429,8 @@
                     &:hover{
                         color:rgb(238, 47, 47) ;
                         background: white;
-                        padding: 9px 19px;
-                        border: 1px solid rgb(238, 47, 47);
+                        /* padding: 9px 19px; */
+                        box-shadow: 0 0 5px 1px rgb(238, 47, 47);
                     }
                 }
             }
@@ -442,7 +443,7 @@
         }
     }
     .price_Details{
-        background: var(--dark-1);
+        background: var(--light-2);
         border-radius: 25px;
         /* border: 2px solid var(--fourth); */
         width: 20%;
@@ -465,6 +466,20 @@
         }
         p{
             font-size: 22px;
+        }
+        button{
+            font-size: 24px;
+            padding: 12px 40px;
+            margin-top: 10px;
+            color: white;
+            background: var(--dark-1);
+            /* transition:color 0.2s; */
+            &:hover{
+                color:var(--dark-1) ;
+                background: white;
+                /* padding: 9px 19px; */
+                box-shadow: 0 0 5px 1px var(--dark-1);
+            }
         }
     }
 }

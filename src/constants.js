@@ -70,7 +70,7 @@ export const MENU =[
                 "name": "Big Mac",
                 "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
                 "price": 5.49,
-                "image": "src/images/big_mac.png",
+                "image": "src/images/bigmac.png",
                 "category": "Burgers"
             },
             {
@@ -155,30 +155,6 @@ export const MENU =[
             },
             {
                 "id": 20,
-                "name": "Biscuit",
-                "description": "A warm, flaky buttermilk biscuit.",
-                "price": 1.29,
-                "image": "src/images/biscuit.png",
-                "category": "Sides"
-            },
-            {
-                "id": 21,
-                "name": "Potato Crisps",
-                "description": "A crunchy and salty snack made from thinly sliced and fried potatoes.",
-                "price": 2.49,
-                "image": "src/images/potato_crisps.png",
-                "category": "Sides"
-            },
-            {
-                "id": 22,
-                "name": "Onion Rings",
-                "description": "Crunchy onion rings.",
-                "price": 2.99,
-                "image": "src/images/onion_rings.png",
-                "category": "Sides"
-            },
-            {
-                "id": 23,
                 "name": "Mozzarella Sticks",
                 "description": "Fried mozzarella cheese sticks served with marinara sauce.",
                 "price": 3.49,
@@ -186,7 +162,7 @@ export const MENU =[
                 "category": "Sides"
             },
             {
-                "id": 24,
+                "id": 21,
                 "name": "Soft Drink",
                 "description": "Your choice of a refreshing soda.",
                 "price": 1.99,
@@ -194,15 +170,7 @@ export const MENU =[
                 "category": "Beverages"
             },
             {
-                "id": 25,
-                "name": "Iced Tea",
-                "description": "Freshly brewed iced tea, sweetened or unsweetened.",
-                "price": 1.79,
-                "image": "src/images/iced_tea.png",
-                "category": "Beverages"
-            },
-            {
-                "id": 26,
+                "id": 22,
                 "name": "Lemonade",
                 "description": "A cool, refreshing glass of lemonade.",
                 "price": 2.29,
@@ -210,15 +178,7 @@ export const MENU =[
                 "category": "Beverages"
             },
             {
-                "id": 27,
-                "name": "Orange Juice",
-                "description": "Freshly squeezed orange juice.",
-                "price": 1.99,
-                "image": "src/images/orange_juice.png",
-                "category": "Beverages"
-            },
-            {
-                "id": 28,
+                "id": 23,
                 "name": "Coffee",
                 "description": "A hot cup of freshly brewed coffee.",
                 "price": 1.29,
@@ -226,7 +186,7 @@ export const MENU =[
                 "category": "Beverages"
             },
             {
-                "id": 29,
+                "id": 24,
                 "name": "Milkshake",
                 "description": "A thick and creamy milkshake available in vanilla, chocolate, or strawberry.",
                 "price": 2.99,
@@ -234,15 +194,7 @@ export const MENU =[
                 "category": "Beverages"
             },
             {
-                "id": 30,
-                "name": "Smoothie",
-                "description": "A creamy blend of fruit and yogurt, available in various flavors.",
-                "price": 3.49,
-                "image": "src/images/smoothie.png",
-                "category": "Beverages"
-            },
-            {
-                "id": 31,
+                "id": 25,
                 "name": "Iced Coffee",
                 "description": "A chilled, sweetened coffee drink.",
                 "price": 2.49,
@@ -250,15 +202,7 @@ export const MENU =[
                 "category": "Beverages"
             },
             {
-                "id": 32,
-                "name": "Sparkling Water",
-                "description": "Refreshing carbonated water with a hint of lemon.",
-                "price": 1.79,
-                "image": "src/images/sparkling_water.png",
-                "category": "Beverages"
-            },
-            {
-                "id": 33,
+                "id": 26,
                 "name": "Hot Chocolate",
                 "description": "A warm, rich chocolate drink topped with whipped cream.",
                 "price": 2.49,
@@ -266,7 +210,7 @@ export const MENU =[
                 "category": "Beverages"
             },
             {
-                "id": 34,
+                "id": 27,
                 "name": "Brownie",
                 "description": "A rich and fudgy chocolate brownie.",
                 "price": 1.99,
@@ -274,7 +218,7 @@ export const MENU =[
                 "category": "Desserts"
             },
             {
-                "id": 35,
+                "id": 28,
                 "name": "McFlurry",
                 "description": "A creamy soft-serve dessert blended with your choice of toppings.",
                 "price": 2.99,
@@ -282,7 +226,7 @@ export const MENU =[
                 "category": "Desserts"
             },
             {
-                "id": 36,
+                "id": 29,
                 "name": "Apple Pie",
                 "description": "A warm apple pie with a flaky crust.",
                 "price": 1.49,
@@ -290,7 +234,7 @@ export const MENU =[
                 "category": "Desserts"
             },
             {
-                "id": 37,
+                "id": 30,
                 "name": "Sundae",
                 "description": "A soft-serve sundae with your choice of hot fudge or caramel.",
                 "price": 1.99,
@@ -298,23 +242,7 @@ export const MENU =[
                 "category": "Desserts"
             },
             {
-                "id": 38,
-                "name": "Hershey's Sundae Pie",
-                "description": "A creamy chocolate and vanilla dessert topped with chocolate crumbs.",
-                "price": 1.99,
-                "image": "src/images/hersheys_sundae_pie.png",
-                "category": "Desserts"
-            },
-            {
-                "id": 39,
-                "name": "Soft Serve Cone",
-                "description": "A classic vanilla soft serve cone.",
-                "price": 1.49,
-                "image": "src/images/soft_serve_cone.png",
-                "category": "Desserts"
-            },
-            {
-                "id": 40,
+                "id": 31,
                 "name": "Cinnamon Roll",
                 "description": "A warm cinnamon roll with icing.",
                 "price": 2.49,
@@ -322,7 +250,7 @@ export const MENU =[
                 "category": "Desserts"
             },
             {
-                "id": 41,
+                "id": 32,
                 "name": "Chocolate Chip Cookie",
                 "description": "A warm, gooey chocolate chip cookie.",
                 "price": 1.49,
