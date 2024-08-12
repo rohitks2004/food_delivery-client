@@ -1,0 +1,73 @@
+
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  
+
+   /* font-synthesis: none;  */
+    /* ----changes font-weight */
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* color-scheme:  */
+  --white :#fff;
+  --black : #111;
+  --red:#e32929;
+
+  --light-1 :#ffe518;
+  --light-2 :#ff611d;
+  --dark-1  :#813531;
+  --dark-2  :#982121;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+button{
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  transition-duration: 0.3s;
+  &:disabled{
+      opacity: 0.5;
+  }
+}
+/* button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  background-color: #1a1a1a;
+  transition: border-color 0.25s; 
+} */
+/* button:hover {
+  border-color: #646cff;
+} */
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+

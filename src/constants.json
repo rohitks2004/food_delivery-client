@@ -1,0 +1,273 @@
+[
+    {
+    "category": "Chicken & Fish",
+    "items": [
+        {
+        "id": 1,
+        "name": "Original Recipe Chicken",
+        "description": "Classic fried chicken with KFC's secret blend of 11 herbs and spices.",
+        "price": 8.99
+        },
+        {
+        "id": 2,
+        "name": "Extra Crispy Chicken",
+        "description": "Extra crunchy fried chicken with a flavorful crispy coating.",
+        "price": 9.49
+        },
+        {
+        "id": 3,
+        "name": "Chicken Tenders",
+        "description": "Tender strips of all-white meat chicken, fried to perfection.",
+        "price": 6.99
+        },
+        {
+            "id": 15,
+            "name": "McChicken",
+            "description": "A crispy chicken sandwich with lettuce and mayo.",
+            "price": 1.99
+        },
+        {
+            "id": 16,
+            "name": "Filet-O-Fish",
+            "description": "A fish sandwich with tartar sauce and cheese.",
+            "price": 3.79
+        },
+        {
+            "id": 17,
+            "name": "Chicken McNuggets",
+            "description": "Bite-sized pieces of tender, juicy chicken.",
+            "price": 4.49
+        },
+        {
+            "id": 30,
+            "name": "Original Chicken Sandwich",
+            "description": "A long crispy chicken patty with lettuce and mayo on a sesame seed bun.",
+            "price": 4.99
+        },
+        {
+            "id": 31,
+            "name": "Chicken Fries",
+            "description": "Chicken strips shaped like fries, perfect for dipping.",
+            "price": 3.99
+        },
+        {
+            "id": 32,
+            "name": "Chicken Nuggets",
+            "description": "Bite-sized pieces of tender, juicy chicken.",
+            "price": 4.49
+        }
+            ]
+    },
+    {
+    "category": "Burgers",
+    "items": [
+        {
+        "id": 12,
+        "name": "Big Mac",
+        "description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.",
+        "price": 5.49
+        },
+        {
+        "id": 13,
+        "name": "Quarter Pounder with Cheese",
+        "description": "A quarter-pound beef patty with cheese, onions, pickles, and ketchup.",
+        "price": 4.79
+        },
+        {
+        "id": 14,
+        "name": "McDouble",
+        "description": "Two beef patties with cheese, onions, pickles, ketchup, and mustard.",
+        "price": 2.99
+        }, 
+        {
+            "id": 27,
+            "name": "Whopper",
+            "description": "A flame-grilled beef patty with lettuce, tomato, pickles, onions, and mayo on a sesame seed bun.",
+            "price": 5.49
+        },
+        {
+            "id": 28,
+            "name": "Double Whopper",
+            "description": "Two flame-grilled beef patties with lettuce, tomato, pickles, onions, and mayo.",
+            "price": 6.99
+        },
+        {
+            "id": 29,
+            "name": "Bacon King",
+            "description": "A beef patty topped with crispy bacon, American cheese, and special sauce.",
+            "price": 6.49
+        }
+        ]
+    },
+    {
+    "category": "Sides",
+    "items": [
+        {
+            "id": 18,
+            "name": "French Fries",
+            "description": "Golden, crispy fries.",
+            "price": 2.49
+        },
+        {
+            "id": 19,
+            "name": "Apple Slices",
+            "description": "Fresh apple slices.",
+            "price": 1.29
+        },
+        {
+            "id": 20,
+            "name": "Side Salad",
+            "description": "A fresh salad with mixed greens, tomatoes, and cucumbers.",
+            "price": 2.99
+        },
+        {
+        "id": 4,
+        "name": "Mashed Potatoes & Gravy",
+        "description": "Creamy mashed potatoes topped with savory gravy.",
+        "price": 2.49
+        },
+        {
+        "id": 5,
+        "name": "Coleslaw",
+        "description": "Freshly prepared coleslaw with a tangy dressing.",
+        "price": 1.99
+        },
+        {
+        "id": 6,
+        "name": "Biscuit",
+        "description": "A warm, flaky buttermilk biscuit.",
+        "price": 1.29
+        },
+        {
+            "id": 33,
+            "name": "French Fries",
+            "description": "Golden, crispy fries.",
+            "price": 2.49
+        },
+        {
+            "id": 34,
+            "name": "Onion Rings",
+            "description": "Crunchy onion rings.",
+            "price": 2.99
+        },
+        {
+            "id": 35,
+            "name": "Mozzarella Sticks",
+            "description": "Fried mozzarella cheese sticks served with marinara sauce.",
+            "price": 3.49
+        }
+        ]
+    },
+    {
+    "category": "Beverages",
+    "items": [
+        {
+        "id": 7,
+        "name": "Soft Drink",
+        "description": "Your choice of a refreshing soda.",
+        "price": 1.99
+        },
+        {
+        "id": 8,
+        "name": "Iced Tea",
+        "description": "Freshly brewed iced tea, sweetened or unsweetened.",
+        "price": 1.79
+        },
+        {
+        "id": 9,
+        "name": "Lemonade",
+        "description": "A cool, refreshing glass of lemonade.",
+        "price": 2.29
+        },
+        {
+            "id": 21,
+            "name": "Soft Drink",
+            "description": "Your choice of a refreshing soda.",
+            "price": 1.79
+        },
+        {
+            "id": 22,
+            "name": "Coffee",
+            "description": "A hot cup of freshly brewed coffee.",
+            "price": 1.29
+        },
+        {
+            "id": 23,
+            "name": "Milkshake",
+            "description": "A thick and creamy milkshake available in vanilla, chocolate, or strawberry.",
+            "price": 2.99
+        },
+        {
+            "id": 36,
+            "name": "Soft Drink",
+            "description": "Your choice of a refreshing soda.",
+            "price": 1.99
+        },
+        {
+            "id": 37,
+            "name": "Iced Coffee",
+            "description": "A chilled, sweetened coffee drink.",
+            "price": 2.49
+        },
+        {
+            "id": 38,
+            "name": "Milkshake",
+            "description": "A thick and creamy milkshake available in vanilla, chocolate, or strawberry.",
+            "price": 2.99
+        }
+        ]
+    },
+    {
+    "category": "Desserts",
+    "items": [
+        {
+        "id": 10,
+        "name": "Chocolate Chip Cookie",
+        "description": "A warm, gooey chocolate chip cookie.",
+        "price": 1.49
+        },
+        {
+        "id": 11,
+        "name": "Apple Pie",
+        "description": "A classic dessert with a flaky crust and sweet apple filling.",
+        "price": 1.99
+        },
+        {
+            "id": 24,
+            "name": "McFlurry",
+            "description": "A creamy soft-serve dessert blended with your choice of toppings.",
+            "price": 2.99
+        },
+        {
+            "id": 25,
+            "name": "Apple Pie",
+            "description": "A warm apple pie with a flaky crust.",
+            "price": 1.49
+        },
+        {
+            "id": 26,
+            "name": "Sundae",
+            "description": "A soft-serve sundae with your choice of hot fudge or caramel.",
+            "price": 1.99
+        },        
+        {
+            "id": 39,
+            "name": "Hershey's Sundae Pie",
+            "description": "A creamy chocolate and vanilla dessert topped with chocolate crumbs.",
+            "price": 1.99
+        },
+        {
+            "id": 40,
+            "name": "Soft Serve Cone",
+            "description": "A classic vanilla soft serve cone.",
+            "price": 1.49
+        },
+        {
+            "id": 41,
+            "name": "Cinnamon Roll",
+            "description": "A warm cinnamon roll with icing.",
+            "price": 2.49
+        }
+            ]
+    }
+]
