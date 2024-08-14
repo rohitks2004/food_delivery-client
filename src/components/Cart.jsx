@@ -2,7 +2,6 @@
 import { useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { toast } from "react-toastify";
 import { decrementQuantity, incrementQuantity, removeItem } from "../redux/cartSlice";
 
 const Cart = ({selectedOption , setSelectedOption}) => {
@@ -86,9 +85,11 @@ const Cart = ({selectedOption , setSelectedOption}) => {
               Delivery
             </label>
             </div>
-            <button className="checkout" onClick={()=>toast("Checked out")}>
-              Checkout
-            </button> 
+            <Link to={'/orders'} >
+              <button className="checkout">
+                Checkout
+              </button> 
+            </Link>
           </div>
         </div>
       </div>

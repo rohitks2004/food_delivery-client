@@ -8,7 +8,7 @@ const Home = ({setSelectedOption}) => {
             <div className="banner_left">
                 <h1>Start your <br/>food journey.</h1>
                 <Link to={'/menu'} ><button onClick={()=>setSelectedOption('pickup')} >Order Pickup<img height={'40px'} width={"40px"}  src="../../public/pickup.png" /></button></Link> 
-                <Link to={'/menu'} ><button onClick={()=>setSelectedOption('delivery')} >Order Deivery<img height={'40px'} width={"40px"}  src="../../public/delivery.png" /></button></Link> 
+                <Link to={'/menu'} ><button onClick={()=>setSelectedOption('delivery')} >Order Delivery<img height={'40px'} width={"40px"}  src="../../public/delivery.png" /></button></Link> 
             </div>
             <div className="banner_right">
                 <img src="src/assets/home.png"
