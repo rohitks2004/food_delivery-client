@@ -12,8 +12,9 @@ const Header = ({setShowLoginSignup}) => {
             <Link  className={currentPage ==='/'?'active':''} to={'/'}><p>Home</p></Link>
             <Link className={currentPage ==='/menu'?'active':''} to={'/menu'}><p>Menu</p></Link>
             <Link className={currentPage ==='/cart'?'active':''} to={'/cart'}><p>Cart</p></Link>
-            <button onClick={()=>{setShowLoginSignup(true)}}>Login</button>
+            <Link className={currentPage ==='/orders'?'active':''} to={'/orders'}><p>Orders</p></Link>
         </nav>
+            <button onClick={()=>{setShowLoginSignup(true)}}>Login</button>
     </div>
     </>
   )
