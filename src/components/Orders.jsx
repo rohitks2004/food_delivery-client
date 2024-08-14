@@ -1,18 +1,22 @@
-import React from 'react'
+// import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Orders = () => {
-    const orders =[];
+    // const orders =[];
   return (
     <div>
     <h2 className="cart_title">Your Orders</h2>
 
-    {orders.length === 0 ? (
+    {/* {orders.length === 0 ? ( */}
+    <div>
       <p className="cart_title">
         Create Your first order
-        <Link to={'/menu'}></Link>
       </p>
-    ) : (
+      <Link to={'/menu'}>
+        <button className="">Start ordering</button>
+      </Link>
+    </div>
+    {/* ) : (
       <div className="cart">
         <div className="cart_list">
           {cart.map((product, index) => (
@@ -48,7 +52,7 @@ const Orders = () => {
           </button> 
         </div>
       </div>
-    )}
+    )} */}
   </div>
   )
 }

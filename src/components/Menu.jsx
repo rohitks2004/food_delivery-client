@@ -1,9 +1,11 @@
 import { Link, useLocation } from "react-router-dom";
-import { MENU, MENU_CATEGORY } from "../constants";
+import { MENU_CATEGORY } from "../constants";
 import ItemCard from "./ItemCard";
+import { useSelector } from "react-redux";
 
 const Menu = () => {
     const curr_category = useLocation().hash;
+    const menuItems = useSelector(state => state.itemSlice.items)
   return (
     <div className="menu">
       {/* // sidebar */}
@@ -30,16 +32,13 @@ const Menu = () => {
               <div className="category"  id={category} key={category}>
                 <h2 className="category_title">{category}</h2>
                     <div className="category_items">
-                       { MENU.map((item, key) => {
+                       { menuItems.map((item, key) => {
                             return ( item.category == category ? <ItemCard key={key} item={item} /> : <></> )
                         })}
                     </div>
               </div>
             );
           })
-          //    MENU.map((item,key) => {
-          //         return <ItemCard key={key} item={item} />
-          //   })
         }
       </div>
     </div>

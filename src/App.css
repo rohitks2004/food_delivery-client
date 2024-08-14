@@ -193,9 +193,6 @@
                 padding: 16px 20px;
                 border-radius: 50px;
                 align-content: center;
-                img{
-                    
-                }
                 &:hover{
                     background-color: var(--white);
                     color: var(--red);
@@ -356,6 +353,24 @@
     font-size: 40px;
     margin-top: 10px;
     margin-left: 50px;
+}
+.cart_title + a{
+    button{
+        margin: 20px 0 0 50px;
+        color: var(--white);
+        background-color: var(--red);
+        font-size: 28px;
+        /* width: 20%; */
+        text-align: center;
+        padding: 12px 40px;
+        border-radius: 50px;
+        align-content: center;
+        &:hover{
+            background-color: var(--white);
+            color: var(--red);
+            box-shadow: 0px 0px 3px var(--red);
+        }
+    }
 }
 .cart{
     border: 2px solid var(--black);
