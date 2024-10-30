@@ -26,3 +26,17 @@ const cartSlice = createSlice({
 })
 export default cartSlice.reducer;
 export const {addItem,removeItem,decrementQuantity,incrementQuantity} = cartSlice.actions;
+
+/*
+[
+	{
+	"id": 1,
+	"name": "Original Recipe Chicken",
+	"description": "Classic fried chicken with secret blend of 11 herbs and spices.",
+	"price": 8.99,
+	"image": "src/images/original_recipe_chicken.png",
+	"category": "Chicken&Fish"
+	"quantity":1
+	}
+]
+*/

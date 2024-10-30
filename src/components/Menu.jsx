@@ -32,8 +32,10 @@ const Menu = () => {
               <div className="category"  id={category} key={category}>
                 <h2 className="category_title">{category}</h2>
                     <div className="category_items">
-                       { menuItems.map((item, key) => {
-                            return ( item.category == category ? <ItemCard key={key} item={item} /> : <></> )
+                       { menuItems
+                       .filter((item) => item.category === category)
+                       .map((item,key) => {
+                            return <ItemCard key={key} item={item} />
                         })}
                     </div>
               </div>
